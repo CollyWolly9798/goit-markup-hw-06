@@ -4,13 +4,6 @@ body {
     background-color: #FFFFFF;
 }
 
-ul {
-    list-style-type: none;
-  }
-
-a:link {
-    text-decoration: none;
-}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -28,6 +21,7 @@ span {
 .nav-link {
     color: #2e2f42;
     font-style: normal;
+    list-style-type: none;
 }
 
 .nav-header {
