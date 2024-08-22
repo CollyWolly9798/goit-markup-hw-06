@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: #FFF;
 }
 
@@ -25,11 +25,17 @@ span {
 }
 
 .nav-link {
+    color: #2e2f42;
     font-style: normal;
     list-style-type: none;
 }
 
-
+.adress-link {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455 ;
+}
 
 .address {
     color: #434455;
@@ -52,6 +58,7 @@ span {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
+    font-size: 16px;
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
@@ -65,8 +72,10 @@ span {
 .info {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .info-card {
@@ -90,16 +99,35 @@ span {
     background-color: #fff;
 }
 
+.portofolio-list{
+    background-color: #FFFFFF;
+}
+
 .footer-info {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #2e2f42;
 }
+.footer-span{
+    color: #f4f4fd;
+}
 .nav-link:hover{
+    color: #404bbf;
+}
+.nav-link:focus{
     color: #404bbf;
 }
 .button:hover{
     background-color: #404BBF;
     cursor: pointer;
+}
+.button:focus{
+    background-color: #404BBF;
+    cursor: pointer;}
+.adress-link:hover{
+    color: #404bbf;
+}
+.adress-link:focus{
+    color:  #404bbf;
 }
