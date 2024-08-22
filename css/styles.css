@@ -129,9 +129,11 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  background-color: #2e2f42;
 }
 .footer-span {
   color: #f4f4fd;
+  background-color: #2e2f42;
 }
 .nav-link:hover {
   color: #404bbf;
