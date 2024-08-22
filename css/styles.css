@@ -108,6 +108,9 @@ span {
 .cards {
   background-color: #ffffff;
 }
+.cards-image {
+  background-color: #ffffff;
+}
 
 .our-portofolio {
   color: #2e2f42;
@@ -117,14 +120,15 @@ span {
 .portofolio-list {
   background-color: #ffffff;
 }
-.footer {
-  border-color: #2e2f42;
+
+footer {
+  background-color: #2e2f42;
 }
+
 .footer-info {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background: #2e2f42;
 }
 .footer-span {
   color: #f4f4fd;
