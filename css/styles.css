@@ -43,6 +43,7 @@ span {
 }
 
 .title {
+  text-align: center;
   background-color: #2e2f42;
 }
 
@@ -67,6 +68,7 @@ span {
 }
 
 .about {
+  color: #2e2f42;
   background-color: #fff;
 }
 .about-list {
@@ -97,10 +99,15 @@ span {
 }
 
 .our-team {
+  color: #2e2f42;
   background-color: #f4f4fd;
+}
+.our-list {
+  background-color: #ffffff;
 }
 
 .our-portofolio {
+  color: #2e2f42;
   background-color: #fff;
 }
 
