@@ -20,170 +20,140 @@
     <title>WEBSTUDIO</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html">Web<span>Studio</span></a>
-        <ul class="nav-header">
-          <li>
-            <a class="nav-link" href="./index.html" target="_blank">Studio</a>
-          </li>
-          <li><a class="nav-link" href="" target="_blank">Portfolio</a></li>
-          <li><a class="nav-link" href="" target="_blank">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="adress-link">
-          <li>
-            <a class="adress-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="adress-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html" target="_blank">Studio</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="" target="_blank">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="" target="_blank">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section class="title">
-        <h1 class="title-page">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+      <section class=" title">
+        <div class="container">
+          <h1 class="title-page">Effective Solutions for Your Business</h1>
+          <button class="button title-button" type="button">Order Service</button>
+        </div>
       </section>
-      <section class="about">
-        <h2 class="info">about</h2>
-        <ul class="about-list">
-          <li>
-            <h3 class="info-card">Strategy</h3>
-            <p class="info-card-about">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="info-card">Punctuality</h3>
-            <p class="info-card-about">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="info-card">Diligence</h3>
-            <p class="info-card-about">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="info-card">Technologies</h3>
-            <p class="info-card-about">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section about">
+        <div class="container">
+          <h2 class="info visually-hidden">about</h2>
+          <ul class="about-list">
+            <li class="about-item">
+              <h3 class="info-card">Strategy</h3>
+              <p class="info-card-about">
+                Our goal is to identify the business problem to walk away with the perfect and creative solution.
+              </p>
+            </li>
+            <li class="about-item">
+              <h3 class="info-card">Punctuality</h3>
+              <p class="info-card-about">
+                Bring the key message to the brand's audience for the best price within the shortest possible time.
+              </p>
+            </li>
+            <li class="about-item">
+              <h3 class="info-card">Diligence</h3>
+              <p class="info-card-about">
+                Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="about-item">
+              <h3 class="info-card">Technologies</h3>
+              <p class="info-card-about">
+                Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="our-team">
-        <h2 class="info">Our Team</h2>
-        <ul class="our-list">
-          <li class="cards">
-            <img
-              class="cards-image"
-              src="./images/img.jpg"
-              alt="man"
-              width="264"
-              height="260"
-            />
-            <h3 class="info-card">Mark Guerrero</h3>
-            <p class="info-card-about">Product Designer</p>
-          </li>
-          <li class="cards">
-            <img src="./images/img-1.jpg" alt="man" width="264" height="260" />
-            <h3 class="info-card">Tom Ford</h3>
-            <p class="info-card-about">Frontend Developer</p>
-          </li>
-          <li class="cards">
-            <img
-              src="./images/img-2.jpg"
-              alt="woman"
-              width="264"
-              height="260"
-            />
-            <h3 class="info-card">Camila Garcia</h3>
-            <p class="info-card-about">Marketing</p>
-          </li>
-          <li class="cards">
-            <img src="./images/img-3.jpg" alt="man" width="264" height="260" />
-            <h3 class="info-card">Daniel Wilson</h3>
-            <p class="info-card-about">UI Designer</p>
-          </li>
-        </ul>
+      <section class="section our-team">
+        <div class="container">
+          <h2 class="info our-info">Our Team</h2>
+          <ul class="our-list">
+            <li class="cards">
+              <img class="cards-image" src="./images/img.jpg" alt="man" width="264" height="260" />
+              <h3 class="info-card">Mark Guerrero</h3>
+              <p class="info-card-about">Product Designer</p>
+            </li>
+            <li class="cards">
+              <img class="cards-image" src="./images/img-1.jpg" alt="man" width="264" height="260" />
+              <h3 class="info-card">Tom Ford</h3>
+              <p class="info-card-about">Frontend Developer</p>
+            </li>
+            <li class="cards">
+              <img class="cards-image" src="./images/img-2.jpg" alt="woman" width="264" height="260" />
+              <h3 class="info-card">Camila Garcia</h3>
+              <p class="info-card-about">Marketing</p>
+            </li>
+            <li class="cards">
+              <img class="cards-image" src="./images/img-3.jpg" alt="man" width="264" height="260" />
+              <h3 class="info-card">Daniel Wilson</h3>
+              <p class="info-card-about">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="our-portofolio">
-        <h2 class="info">Our Portfolio</h2>
-        <ul class="portofolio-list">
-          <li>
-            <img
-              src="./images/banking.jpg"
-              alt="app"
-              width="360"
-              height="300"
-            />
-            <h3 class="info-card">Banking App</h3>
-            <p class="info-card-about">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/cashless.jpg"
-              alt="payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="info-card">Cashless Payment</h3>
-            <p class="info-card-about">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/app.jpg" alt="app" width="360" height="300" />
-            <h3 class="info-card">Meditation App</h3>
-            <p class="info-card-about">App</p>
-          </li>
-          <li>
-            <img src="./images/taxi.jpg" alt="taxi" width="360" height="300" />
-            <h3 class="info-card">Taxi Service</h3>
-            <p class="info-card-about">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/screen.jpg"
-              alt="phone"
-              width="360"
-              height="300"
-            />
-            <h3 class="info-card">Screen Illustrations</h3>
-            <p class="info-card-about">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/online.jpg"
-              alt="student"
-              width="360"
-              height="300"
-            />
-            <h3 class="info-card">Online Courses</h3>
-            <p class="info-card-about">Marketing</p>
-          </li>
-        </ul>
+      <section class="section our-portofolio">
+        <div class="container">
+          <h2 class="info portofolio-title">Our Portfolio</h2>
+          <ul class="portofolio-list">
+            <li class="portofolio-list-item">
+              <img src="./images/banking.jpg" alt="app" width="360" height="300" />
+              <h3 class="info-card">Banking App</h3>
+              <p class="info-card-about">App</p>
+            </li>
+            <li class="portofolio-list-item">
+              <img class="portofolio-img" src="./images/cashless.jpg" alt="payment" width="360" height="300" />
+              <h3 class="info-card">Cashless Payment</h3>
+              <p class="info-card-about">Marketing</p>
+            </li>
+            <li class="portofolio-list-item">
+              <img class="portofolio-img" src="./images/app.jpg" alt="app" width="360" height="300" />
+              <h3 class="info-card">Meditation App</h3>
+              <p class="info-card-about">App</p>
+            </li>
+            <li class="portofolio-list-item">
+              <img src="./images/taxi.jpg" alt="taxi" width="360" height="300" />
+              <h3 class="info-card">Taxi Service</h3>
+              <p class="info-card-about">Marketing</p>
+            </li>
+            <li class="portofolio-list-item">
+              <img class="portofolio-img" src="./images/screen.jpg" alt="phone" width="360" height="300" />
+              <h3 class="info-card">Screen Illustrations</h3>
+              <p class="info-card-about">Design</p>
+            </li>
+            <li class="portofolio-list-item">
+              <img class="portofolio-img" src="./images/online.jpg" alt="student" width="360" height="300" />
+              <h3 class="info-card">Online Courses</h3>
+              <p class="info-card-about">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <a class="logo" href="./index.html"
-        >Web<span class="footer-span">Studio</span></a
-      >
+    <footer class="page-footer">
+      <div class="container">
+      <a class="logo footer-logo" href="./index.html">Web<span class="footer-span">Studio</span></a>
       <p class="footer-info">
-        Increase the flow of customers and sales for your business with digital
-        marketing &amp; growth solutions.
+        Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
