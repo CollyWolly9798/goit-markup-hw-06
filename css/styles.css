@@ -299,8 +299,8 @@ body {
 }
 
 .footer-logo {
-  display: flex;
-  padding-top: 100px;
+  display: inline-block;
+  padding-top: 100px ;
   margin-bottom: 16px;
 }
 
