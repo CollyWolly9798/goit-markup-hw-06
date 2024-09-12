@@ -117,9 +117,12 @@ body {
 
 /* main */
 
+.section-title{
+  padding: 188px 0;
+}
+
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+ padding: 120px 0;
 }
 
 .title {
@@ -131,7 +134,6 @@ body {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
   padding-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
@@ -141,9 +143,18 @@ body {
   background: #2e2f42;
 }
 
+.button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
 .title-button {
   padding: 16px 32px;
-  margin-bottom: 188px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
@@ -156,6 +167,11 @@ body {
 .about {
   color: #2e2f42;
   background-color: #ffffff;
+    padding: 120px 0;
+}
+
+.info-about{
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -234,11 +250,17 @@ body {
   background-color: #ffffff;
 }
 
+.team-card{
+  padding: 32px 0;
+}
+
 .info-card {
-  padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .info-card-about {
+  text-align: center;
   padding-bottom: 32px;
 }
 
@@ -248,6 +270,10 @@ body {
 }
 
 .portofolio-title {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
   padding-top: 120px;
   margin-bottom: 72px;
 }
