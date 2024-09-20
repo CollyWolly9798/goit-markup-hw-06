@@ -415,6 +415,10 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.overlay-des {
+  transform: translateY(0%);
+}
+
 .product-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
