@@ -483,13 +483,13 @@ body {
 
 .subscribe-slogan {
   font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
-.subscribe-form{
+.subscribe-form {
   display: flex;
   gap: 24px;
 }
@@ -506,7 +506,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  margin-right: 24px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -516,7 +515,7 @@ body {
 }
 
 .subscribe-form-input::placeholder {
-  color #ffffff;
+  color: #ffffff;
 }
 
 .subscribe-btn {
@@ -529,7 +528,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -594,8 +593,7 @@ body {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close {
@@ -623,15 +621,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 72px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 16px;
-}
-
-.order-contact-form {
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .order-contact-wrapper {
@@ -696,7 +686,6 @@ body {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
-  margin-bottom: 16px;
   outline: transparent;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -720,7 +709,7 @@ body {
 .order-contact-checkbox:checked + .order-contact-label-checkbox > .order-contact-custom-checkbox {
   background-color: #404bbf;
   border-color: #404bbf;
-  fill: #F4F4FD;;
+  fill: #f4f4fd;
   border: none;
 }
 
@@ -738,7 +727,8 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
   margin-right: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
 
