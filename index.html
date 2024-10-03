@@ -120,7 +120,7 @@
           <button class="button title-button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="section about hiden">
+      <section class="section about">
         <div class="container">
           <h2 class="info visually-hidden info-about">about</h2>
           <ul class="about-list">
@@ -130,7 +130,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="info-card about-card">Strategy</h3>
+              <h3 class="about-card">Strategy</h3>
               <p class="info-card-about">
                 Our goal is to identify the business problem to walk away with the perfect and creative solution.
               </p>
@@ -141,7 +141,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="info-card about-card">Punctuality</h3>
+              <h3 class="about-card">Punctuality</h3>
               <p class="info-card-about">
                 Bring the key message to the brand's audience for the best price within the shortest possible time.
               </p>
@@ -152,7 +152,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="info-card about-card">Diligence</h3>
+              <h3 class="about-card">Diligence</h3>
               <p class="info-card-about">
                 Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
               </p>
@@ -163,7 +163,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="info-card about-card">Technologies</h3>
+              <h3 class="about-card">Technologies</h3>
               <p class="info-card-about">
                 Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
               </p>
@@ -171,14 +171,20 @@
           </ul>
         </div>
       </section>
-      <section class="section our-team hiden">
-        <div class="container">
-          <h2 class="info our-info">Our Team</h2>
+      <section class="section our-team">
+        <div class="container our-team-container">
+          <h2 class="info">Our Team</h2>
           <ul class="our-list">
             <li class="cards">
-              <img src="./images/img.jpg" alt="man" width="264" height="260" />
+              <img
+                srcset="./images/team-card1@2x.jpg 2x"
+                src="./images/team-card1.jpg"
+                alt="a member of the team"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <h3 class="info-card team-title">Mark Guerrero</h3>
+                <h3 class="team-title">Mark Guerrero</h3>
                 <p class="info-card-about team-title-about">Product Designer</p>
                 <ul class="social-list">
                   <li class="social-item">
@@ -213,10 +219,16 @@
               </div>
             </li>
             <li class="cards">
-              <img src="./images/img-1.jpg" alt="man" width="264" height="260" />
+              <img
+                srcset="./images/team-card2@2x.jpg 2x"
+                src="./images/team-card2.jpg"
+                alt="a member of the team"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <h3 class="info-card team-title">Tom Ford</h3>
-                <p class="info-card-about team-title-about">Frontend Developer</p>
+                <h3 class="team-title">Tom Ford</h3>
+                <p class="team-title-about">Frontend Developer</p>
                 <ul class="social-list">
                   <li class="social-item">
                     <a href="" class="social-link">
@@ -250,10 +262,16 @@
               </div>
             </li>
             <li class="cards">
-              <img src="./images/img-2.jpg" alt="woman" width="264" height="260" />
+              <img
+                srcset="./images/team-card3@2x.jpg 2x"
+                src="./images/team-card3.jpg"
+                alt="a member of the team"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <h3 class="info-card team-title">Camila Garcia</h3>
-                <p class="info-card-about team-title-about">Marketing</p>
+                <h3 class="team-title">Camila Garcia</h3>
+                <p class="team-title-about">Marketing</p>
                 <ul class="social-list">
                   <li class="social-item">
                     <a href="" class="social-link">
@@ -287,10 +305,16 @@
               </div>
             </li>
             <li class="cards">
-              <img src="./images/img-3.jpg" alt="man" width="264" height="260" />
+              <img
+                srcset="./images/team-card4@2x.jpg 2x"
+                src="./images/team-card4.jpg"
+                alt="a member of the team"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <h3 class="info-card team-title">Daniel Wilson</h3>
-                <p class="info-card-about team-title-about">UI Designer</p>
+                <h3 class="team-title">Daniel Wilson</h3>
+                <p class="team-title-about">UI Designer</p>
                 <ul class="social-list">
                   <li class="social-item">
                     <a href="" class="social-link">
@@ -326,86 +350,206 @@
           </ul>
         </div>
       </section>
-      <section class="section our-portofolio hiden">
+      <section class="section our-portofolio">
         <div class="container">
           <h2 class="info portofolio-title">Our Portfolio</h2>
           <ul class="portofolio-list">
             <li class="portofolio-list-item">
               <div class="portofolio-img-wrapper">
-                <img src="./images/banking.jpg" alt="app" width="360" height="300" />
+                <picture>
+                  <source
+                    srcset="./images-portofolio/banking-app-d.jpg 1x, ./images-portofolio/banking-app-d@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/banking-app-t.jpg 1x, ./images-portofolio/banking-app-t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/banking-app-m.jpg 1x, ./images-portofolio/banking-app-m@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image-portofolio"
+                    src="./images-portofolio/banking-app-m.jpg"
+                    alt="banking app"
+                    width="288"
+                    height="280"
+                  />
+                </picture>
                 <p class="overlay-desc portofolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                   Fruit Ecommerce App · Cloud Storage App
                 </p>
               </div>
               <div class="product-card">
-                <h3 class="info-card product-card-name">Banking App</h3>
-                <p class="info-card-about">App</p>
+                <h3 class="product-card-name">Banking App</h3>
+                <p class="product-card-about">App</p>
               </div>
             </li>
             <li class="portofolio-list-item">
               <div class="portofolio-img-wrapper">
-                <img src="./images/cashless.jpg" alt="payment" width="360" height="300" />
+                <picture>
+                  <source
+                    srcset="./images-portofolio/cashless-t.jpg 1x, ./images-portofolio/cashless-t@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/cashless-t.jpg 1x, ./images-portofolio/cashless-t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/cashless-m.jpg 1x, ./images-portofolio/cashless-m@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image-portofolio"
+                    src="./images-portofolio/cashless-m.jpg"
+                    alt="cashless payment"
+                    width="288"
+                    height="280"
+                  />
+                </picture>
                 <p class="overlay-desc portofolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                   Fruit Ecommerce App · Cloud Storage App
                 </p>
               </div>
               <div class="product-card">
-                <h3 class="info-card product-card-name">Cashless Payment</h3>
+                <h3 class="product-card-name">Cashless Payment</h3>
                 <p class="info-card-about">Marketing</p>
               </div>
             </li>
             <li class="portofolio-list-item">
               <div class="portofolio-img-wrapper">
-                <img src="./images/app.jpg" alt="app" width="360" height="300" />
+                <picture>
+                  <source
+                    srcset="./images-portofolio/meditation-d.jpg 1x, ./images-portofolio/meditation-d@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/meditation-t.jpg 1x, ./images-portofolio/meditation-t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/meditation-m.jpg 1x, ./images-portofolio/meditation-m@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image-portofolio"
+                    src="./images-portofolio/meditation-m.jpg"
+                    alt="meditation app"
+                    width="288"
+                    height="280"
+                  />
+                </picture>
                 <p class="overlay-desc portofolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                   Fruit Ecommerce App · Cloud Storage App
                 </p>
               </div>
               <div class="product-card">
-                <h3 class="info-card product-card-name">Meditation App</h3>
-                <p class="info-card-about">App</p>
+                <h3 class="product-card-name">Meditation App</h3>
+                <p class="product-card-about">App</p>
               </div>
             </li>
             <li class="portofolio-list-item">
               <div class="portofolio-img-wrapper">
-                <img src="./images/taxi.jpg" alt="taxi" width="360" height="300" />
+                <picture>
+                  <source
+                    srcset="./images-portofolio/taxi-d.jpg 1x, ./images-portofolio/taxi-d@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/taxi-t.jpg 1x, ./images-portofolio/taxi-t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/taxi-m.jpg 1x, ./images-portofolio/taxi-m@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image-portofolio"
+                    src="./images-portofolio/taxi-m.jpg"
+                    alt="taxi service"
+                    width="288"
+                    height="280"
+                  />
+                </picture>
                 <p class="overlay-desc portofolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                   Fruit Ecommerce App · Cloud Storage App
                 </p>
               </div>
               <div class="product-card">
-                <h3 class="info-card product-card-name">Taxi Service</h3>
-                <p class="info-card-about">Marketing</p>
+                <h3 class="product-card-name">Taxi Service</h3>
+                <p class="product-card-about">Marketing</p>
               </div>
             </li>
             <li class="portofolio-list-item">
               <div class="portofolio-img-wrapper">
-                <img src="./images/screen.jpg" alt="phone" width="360" height="300" />
+                <picture>
+                  <source
+                    srcset="./images-portofolio/screen-d.jpg 1x, ./images-portofolio/screen-d@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/screen-t.jpg 1x, ./images-portofolio/screen-t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/screen-m.jpg 1x, ./images-portofolio/screen-m@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image-portofolio"
+                    src="./images-portofolio/screen-m.jpg"
+                    alt="screen illustrations"
+                    width="288"
+                    height="280"
+                  />
+                </picture>
                 <p class="overlay-desc portofolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                   Fruit Ecommerce App · Cloud Storage App
                 </p>
               </div>
               <div class="product-card">
-                <h3 class="info-card product-card-name">Screen Illustrations</h3>
-                <p class="info-card-about">Design</p>
+                <h3 class="product-card-name">Screen Illustrations</h3>
+                <p class="product-card-about">Design</p>
               </div>
             </li>
             <li class="portofolio-list-item">
               <div class="portofolio-img-wrapper">
-                <img src="./images/online.jpg" alt="student" width="360" height="300" />
+                <picture>
+                  <source
+                    srcset="./images-portofolio/courses-d.jpg 1x, ./images-portofolio/courses-d@2x.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/courses-t.jpg 1x, ./images-portofolio/courses-t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./images-portofolio/courses-m.jpg 1x, ./images-portofolio/courses-m@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="image-portofolio"
+                    src="./images-portofolio/courses-m.jpg"
+                    alt="online courses"
+                    width="288"
+                    height="280"
+                  />
+                </picture>
                 <p class="overlay-desc portofolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                   Fruit Ecommerce App · Cloud Storage App
                 </p>
               </div>
               <div class="product-card">
-                <h3 class="info-card product-card-name">Online Courses</h3>
-                <p class="info-card-about">Marketing</p>
+                <h3 class="product-card-name">Online Courses</h3>
+                <p class="product-card-about">Marketing</p>
               </div>
             </li>
           </ul>
